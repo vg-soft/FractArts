@@ -1,0 +1,18 @@
+{
+  frameWidth:1000
+ ,frameHeight:1000
+ ,deltaFrameToCanvas:50
+ ,canvasBgColor:{r:255, g:255, b:255}
+ ,startPoint:{x:0.0, y:0.0}
+ ,magnitudePoints:[{x:0.0, y:0.0, c:{r:0, g:0, b:255}, mag:0.85}
+,{x:0.9999, y:0.25, c:{r:0, g:0, b:255}, mag:0.02}
+,{x:0.25, y:0.9999, c:{r:0, g:0, b:255}, mag:0.02}
+,{x:0.9999, y:0.9999, c:{r:255, g:0, b:0}, mag:0.2}
+]
+ ,probabilities:[0.25
+,0.25
+,0.25
+,0.25
+]
+ ,stepCount:10000000
+}

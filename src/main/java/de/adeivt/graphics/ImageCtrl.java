@@ -58,6 +58,7 @@ public class ImageCtrl {
 			}
 			switch(target.strategy) {
 			case FIRST_MAGNITUDE:
+//				System.out.println("drawing " + point1);
 				drawPhysLine(point1.x, point1.y, point1.x, point1.y, point1.red, point1.green, point1.blue);
 				curr = point1;
 				break;
